@@ -230,9 +230,10 @@ nav ul li{
 }
 
 .intro .intro-content h1 {
-   font-size: 30px;
+    
    line-height: 30px;
-   font-size: 1.2rem; 
+   font-weight: 500;
+   font-size: 1.4rem; 
    margin-bottom: 2.5rem;
 }
 
@@ -256,6 +257,7 @@ nav ul li{
 
 .intro2 h2{
    font-weight: 300;
+   font-size: 1.4rem; 
 }
 
 
@@ -332,6 +334,11 @@ nav ul li{
    color: #2a2938ff;
 }
 
+.intro3 h2{
+   font-weight: 500;
+   font-size: 1.4rem; 
+}
+
 .intro3 .features {
    display: inline-block;
    text-align: center;
@@ -340,9 +347,7 @@ nav ul li{
 
 .intro3 .features .imgcontent{
    display: inline-block;
-   text-align: center;
-   text-align: center;
-   display:inline-block;
+   text-align: center;  
    margin: auto;
    height: 220px;
    width: 40%;
@@ -369,6 +374,94 @@ nav ul li{
 .intro3 .intro2cont p{
    font-weight:100;
    font-size:14px;
+}
+
+
+/******************************/
+/****** Intro 5**************/
+
+.intro5{
+   text-align:center;
+   padding-top: 3rem;
+   padding-bottom:2rem;
+   height: 250px;
+   color: #2a2938ff;
+   position: relative;
+   background-image: url("/images/bgpattern.svg");
+   background-repeat: repeat;
+   background-color: #f3f4ffff;
+}
+ 
+ .intro5 .intro5wrapper h2{
+   font-weight: 500;
+   font-size: 1.4rem; 
+ }
+ .intro5 .hero-install {
+   padding: 4rem 0 3rem;
+}
+
+.intro5 .hero-install a span{
+   vertical-align: middle;
+}
+
+/******************************/
+/****** suprt**************/
+
+.suprt{
+   text-align:center;
+   padding-top: 3rem;
+   padding-bottom:2rem; 
+   height: auto; 
+   color: #2a2938ff;
+}
+ 
+.suprt .suprtwrapper{
+   text-align:center;
+   width:70%;
+   margin:auto;
+}
+
+ .suprt .suprtwrapper h2{
+   font-weight: 500;
+   font-size: 1.4rem;    
+ }
+
+ 
+.suprt .suprtwrapper p{
+   font-size: 14px;
+  
+}
+
+
+ .suprt .suprtwrapper .contwrapper{
+   width: 200px;
+   height:200px;
+   background-color: rgb(241, 238, 245);
+   display:inline-block;
+   margin: 1rem 3rem 1rem 2rem; 
+}
+
+.suprt .suprtwrapper .contwrapper .imgholder{
+   padding-top:10px;
+   width: 100px;
+   display:inline-block; 
+}
+
+.suprt .suprtwrapper .contwrapper a{
+   text-decoration:none;
+   color: #2a2938ff;
+}
+
+.suprt .suprtwrapper .contwrapper p{
+   text-decoration:none;
+   color: #2a2938ff;
+   margin: 0 10px 0 10px;
+}
+
+.suprt .suprtwrapper .contwrapper .imgholder img{
+   height:100px;
+   width: 100px;
+ 
 }
 
 /******************************/

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg929"
+   sodipodi:docname="coins-solid.svg"
+   inkscape:version="1.1.2 (0a00cf5, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs933" />
+  <sodipodi:namedview
+     id="namedview931"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="1.0917969"
+     inkscape:cx="255.54204"
+     inkscape:cy="288.97317"
+     inkscape:window-width="1536"
+     inkscape:window-height="784"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg929" />
+  <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+  <path
+     style="fill:#2a2939;fill-opacity:1"
+     d="m 192,448 c 56.2,0 108.6,-9.4 148.1,-25.9 16.3,-6.8 31.5,-15.2 43.9,-25.5 V 432 c 0,44.2 -86,80 -192,80 C 86,512 0,476.2 0,432 v -35.4 c 12.5,10.3 27.6,18.7 43.9,25.5 39.5,16.5 91.9,25.9 148.1,25.9 z"
+     id="path5648" />
+  <path
+     style="fill:#2a2939;fill-opacity:1"
+     d="m 416,336 v -32 -25.9 c 19,-4.2 36.5,-9.5 52.1,-16 16.3,-6.8 31.5,-15.2 43.9,-25.5 V 272 c 0,10.5 -5,21 -14.9,30.9 -16.3,16.3 -45,29.7 -81.3,38.4 0.1,-1.7 0.2,-3.5 0.2,-5.3 z"
+     id="path5646" />
+  <path
+     style="fill:#2a2939;fill-opacity:1"
+     d="m 384,336 c 0,18 -14.3,34.6 -38.4,48 -1.8,1 -3.6,1.9 -5.5,2.9 C 304.9,404.7 251.6,416 192,416 129.2,416 73.4,403.4 38.4,384 14.3,370.6 0,354 0,336 v -35.4 c 12.5,10.3 27.6,18.7 43.9,25.5 39.5,16.5 91.9,25.9 148.1,25.9 56.2,0 108.6,-9.4 148.1,-25.9 7.8,-3.2 15.3,-6.9 22.4,-10.9 6.1,-3.4 11.8,-7.2 17.2,-11.2 1.5,-1.1 2.9,-2.3 4.3,-3.4 v 3.4 5.7 z"
+     id="path5644" />
+  <path
+     style="fill:#2a2939;fill-opacity:1"
+     d="m 416,240 c 0,-21.9 -10.6,-39.9 -24.1,-53.4 28.3,-4.4 54.2,-11.4 76.2,-20.5 16.3,-6.8 31.5,-15.2 43.9,-25.5 V 176 c 0,19.3 -16.5,37.1 -43.8,50.9 -14.6,7.4 -32.4,13.7 -52.4,18.5 0.1,-1.8 0.2,-3.5 0.2,-5.3 z"
+     id="path5642" />
+  <path
+     style="fill:#2a2939;fill-opacity:1"
+     d="m 160.7,161.1 c 10.2,-0.7 20.7,-1.1 31.3,-1.1 62.2,0 117.4,12.3 152.5,31.4 24.8,13.5 39.5,30.3 39.5,48.6 0,4 -0.7,7.9 -2.1,11.7 -4.6,13.2 -17,25.3 -35,35.5 0,0 0,0 0,0 -0.1,0.1 -0.3,0.1 -0.4,0.2 v 0 0 c -0.3,0.2 -0.6,0.3 -0.9,0.5 -35,19.4 -90.8,32 -153.6,32 -59.6,0 -112.9,-11.3 -148.2,-29.1 -1.9,-0.9 -3.7,-1.9 -5.5,-2.9 C 14.3,274.6 0,258 0,240 c 0,-34.8 53.4,-64.5 128,-75.4 10.5,-1.5 21.4,-2.7 32.7,-3.5 z"
+     id="path5640" />
+  <path
+     style="fill:#e3732c;fill-opacity:1"
+     d="m 512,80 c 0,18 -14.3,34.6 -38.4,48 -29.1,16.1 -72.5,27.5 -122.3,30.9 -3.7,-1.8 -7.4,-3.5 -11.3,-5 C 300.6,137.4 248.2,128 192,128 c -8.3,0 -16.4,0.2 -24.5,0.6 L 166.4,128 C 142.3,114.6 128,98 128,80 128,35.8 214,0 320,0 426,0 512,35.8 512,80 Z"
+     id="path927" />
+</svg>

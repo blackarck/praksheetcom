@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg18670"
+   sodipodi:docname="pen-fancy-solid.svg"
+   inkscape:version="1.1.2 (0a00cf5, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs18674" />
+  <sodipodi:namedview
+     id="namedview18672"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.6331234"
+     inkscape:cx="-47.384128"
+     inkscape:cy="255.08456"
+     inkscape:window-width="1536"
+     inkscape:window-height="784"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg18670" />
+  <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+  <path
+     style="fill:#e67229;fill-opacity:1"
+     d="m 170.3,256.9 10.4,10.4 64,64 10.4,10.4 -19.2,83.4 c -3.9,17.1 -16.9,30.7 -33.8,35.4 l -177.7,49.8 95.4,-95.4 c 2.6,0.7 5.4,1.1 8.3,1.1 17.7,0 32,-14.3 32,-32 0,-17.7 -14.3,-32 -32,-32 -17.7,0 -32,14.3 -32,32 0,2.9 0.4,5.6 1.1,8.3 L 1.7,487.6 51.5,310 c 4.7,-16.9 18.3,-29.9 35.4,-33.8 L 170.3,257 Z"
+     id="path20932" />
+  <path
+     style="fill:#2a2939;fill-opacity:1"
+     d="M 373.5,27.1 C 388.5,9.9 410.2,0 433,0 c 43.6,0 79,35.4 79,79 0,22.8 -9.9,44.6 -27.1,59.6 L 277.7,319 l -10.3,-10.3 -64,-64 -10.4,-10.4 z"
+     id="path18668" />
+</svg>
