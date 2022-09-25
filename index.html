@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Praksheet</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="images/logo.png" class="logo">
+            <h3 class="navbar-brand">praksheet</h3>
+            <nav>
+                <ul>
+                    <li><a href="https://praksheet.ioblitz.com">Get Started</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="herowrap">
+            <div class="hero">
+                <h1>Practice Sheet <span>
+                        repository for questions
+                    </span></h1>
+                <div class="hero-install">
+                    <a class="button-light" href="https://praksheet.ioblitz.com">Get Started <span
+                            class="material-symbols-outlined">
+                            arrow_forward_ios
+                        </span></a>
+                </div>
+            </div>
+        </div>
+        <!--end of hero wrapper-->
+        <div class="hero-notes">
+            <div class="social-wrapper">
+                <p>
+                    v 1.0 launched
+                </p>
+                <p>
+                    <a href="https://twitter.com/praksheet101"><i class="twittlogo"></i>@praksheet101 on twitter</a>
+                </p>
+                <p>
+                    <a href="https://www.youtube.com/channel/UC2gwbpXHS24rUoRMzhn5bKQ"><i
+                            class="utublogo"></i>@praksheet101 on youtube</a>
+                </p>
+            </div>
+        </div>
+
+        <!--start of second section -->
+        <section class="intro">
+            <div class="site-container">
+                <!--2 sections below-->
+                <div class="intro-content">
+                    <h1>Praksheet offers questions from a vast repository</h1>
+                    <p>Search and print from repository of questions based on various input parameters</p>
+                    <p>Praksheet enables you to create list of searchable questions, pull our practice questions with a
+                        click of a button</p>
+                </div>
+            </div>
+            <div class="site-container">
+                <!--2 sections below-->
+                <div class="intro-content1">
+                    <img src="./images/showcase.jpg" >
+                </div>
+            </div>
+        </section>
+        <!--end of second section -->
+
+        <!--start of 3rd section -->
+        <section class="intro2">
+            <h2>Organizing <strong>Questions</strong> just got easy</h2>
+            <div class="tabcontent">
+
+                <div id="prepprint" class="contentwrapper">
+                    <div class="imgcontent">
+                        <img src="/images/printqstn.svg">
+                    </div>
+                    <div  class="intro2cont">
+                        <h3>Prepare Question</h3>
+                        <p>Prepare your question via multiple attribute search</p>
+                        <p>Search by settings attributes like subjects, grade , time , marks </p>
+                        <p> or do a wildcard search like "Geometry" questions in Maths</p>
+                    </div>
+                </div>
+
+                <div id="downpdf" class="contentwrapper" style="display:none">
+                    <div class="imgcontent">
+                        <img src="/images/pdfdown.svg">
+                    </div>
+                    <div  class="intro2cont" >
+                        <h3>Download Questions</h3>
+                        <p>Download questions in printer friendly pdf format</p>
+                        <p>Questions can be organized by deleting unwanted questions</p>
+                        <p>Downloaded pdf file can be easily printed or shared</p>
+                    </div>
+                </div>
+
+                <div  id="delqstn"  class="contentwrapper"  style="display:none">
+                    <div class="imgcontent">
+                        <img src="/images/bin.svg">
+                    </div>
+                    <div class="intro2cont">
+                        <h3>Organize Questions</h3>
+                        <p>Arrange questions by deleting unwanted questions from search result</p>
+                        <p>Add tags to your uploaded questions </p>
+                    </div>
+                </div>
+
+                <div id="upldqstn" class="contentwrapper" style="display:none">
+                    <div class="imgcontent">
+                        <img src="/images/upld_qstn.svg">
+                    </div>
+                    <div  class="intro2cont" >
+                        <h3>Upload Questions</h3>
+                        <p>Upload questions. Earn karma as they can be used by others for practicing</p>
+                        <p>Parameters like grade, marks , time can be added.They act as search filter</p>
+                    </div>
+                </div>
+
+                <div  id="tagqstn"  class="contentwrapper" style="display:none">
+                    <div class="imgcontent">
+                        <img src="/images/doctag.svg">
+                    </div>
+                    <div class="intro2cont" >
+                        <h3>Tag Questions</h3>
+                        <p>Multiple tags can be associated with a question for better organizing and tag based searching
+                        </p>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            <div class="tabbutton space-around">
+                <a  id="prepbtn" class="btnformat" onclick="openCont('prepprint','prepbtn')">Prepare</a>
+                <a  id="downbtn" class="btnformat" onclick="openCont('downpdf','downbtn')">Dowload</a>
+                <a  id="delbtn"  class="btnformat" onclick="openCont('delqstn','delbtn')">Organize</a>
+                <a  id="upldbtn" class="btnformat" onclick="openCont('upldqstn','upldbtn')">Upload</a>
+                <a  id="tagbtn"  class="btnformat" onclick="openCont('tagqstn','tagbtn')">Tag</a>
+            </div>
+
+        </section>
+        <!--end of 3rd section -->
+
+        <!-- Start of 4th section -->
+<section class="intro3">
+ <h2>Application Features</h2>
+
+ <div class="features">
+    <div class="imgcontent">
+        <img src="/images/feature1.jpg">
+    </div>
+    <div class="intro2cont" >
+        <h3>Search Questions</h3>
+        <p>Questions can be searched based on multiple attributes like Subject, Language , Grades, Marks, Tags</p>
+        <p>One or combination of multiple search attributes help in selecting questions for right term</p>
+    </div>
+ </div>
+
+ <div class="features">
+    <div class="intro2cont" >
+        <h3>Download Questions</h3>
+        <p>You can organize questions by reviewing their ratings, rate them, delete them</p>
+        <p>Questions can be downloaded in pdf format for easy distribution and printing</p>
+    </div>
+    <div class="imgcontent">
+        <img src="/images/feature2.jpg">
+    </div>
+ </div>
+
+ <div class="features">
+    <div class="imgcontent">
+        <img src="/images/feature3.jpg">
+    </div>
+    <div class="intro2cont" >
+        <h3>Submit Questions</h3>
+        <p>This app can will be helpful when we all contribute towards repository</p>
+        <p>Advantage of adding a question is you can organize questions per your need using searchable tags. Other students can benifit from contributions</p>
+        <p>Your students can search questions based on the tag you share</p>
+    </div>
+ </div>
+
+ <div class="features">
+    <div class="intro2cont" >
+        <h3>Profanity Filter</h3>
+        <p>Since anyone can submit question, profanity filter is built in</p>
+        <p>Features slated for future release includes Flag a question, </p>
+        <p>Show additional tag filters on search result</p>
+    </div>
+    <div class="imgcontent">
+        <img src="/images/feature4.jpg">
+    </div>
+ </div>
+ 
+ <div class="features">
+    <div class="imgcontent">
+        <img src="/images/feature5.jpg">
+    </div>
+    <div class="intro2cont" >
+        <h3>User Profile</h3>
+        <p>Though search works without having to sign in, Sign In is requirred for question submission </p>
+        <p>View or delete your submitted questions</p>
+    </div>
+ </div>
+
+</section>
+        <!-- end of 4th section  -->
+
+<!-- start of 5th section  -->
+
+<section class="intro5">
+    Fifth section
+</section>
+<!-- end of 5th section  -->
+
+    </div>
+</body>
+
+</html>
