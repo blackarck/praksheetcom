@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="js/main.js"></script>
     <link rel="stylesheet" href="main.css">
+    <script src="js/main.js" defer></script>
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Praksheet</title>
@@ -66,7 +66,7 @@
             <div class="site-container">
                 <!--2 sections below-->
                 <div class="intro-content1">
-                    <img src="./images/showcase.jpg" >
+                    <img src="./images/showcase.jpg">
                 </div>
             </div>
         </section>
@@ -77,11 +77,11 @@
             <h2>Organizing <strong>Questions</strong> just got easy</h2>
             <div class="tabcontent">
 
-                <div id="prepprint" class="contentwrapper">
+                <div id="prepprint" class="contentwrapper easins2">
                     <div class="imgcontent">
                         <img src="/images/printqstn.svg">
                     </div>
-                    <div  class="intro2cont">
+                    <div class="intro2cont">
                         <h3>Prepare Question</h3>
                         <p>Prepare your question via multiple attribute search</p>
                         <p>Search by settings attributes like subjects, grade , time , marks </p>
@@ -89,11 +89,11 @@
                     </div>
                 </div>
 
-                <div id="downpdf" class="contentwrapper" style="display:none">
+                <div id="downpdf" class="contentwrapper easins2" style="display:none">
                     <div class="imgcontent">
                         <img src="/images/pdfdown.svg">
                     </div>
-                    <div  class="intro2cont" >
+                    <div class="intro2cont">
                         <h3>Download Questions</h3>
                         <p>Download questions in printer friendly pdf format</p>
                         <p>Questions can be organized by deleting unwanted questions</p>
@@ -101,7 +101,7 @@
                     </div>
                 </div>
 
-                <div  id="delqstn"  class="contentwrapper"  style="display:none">
+                <div id="delqstn" class="contentwrapper easins2" style="display:none">
                     <div class="imgcontent">
                         <img src="/images/bin.svg">
                     </div>
@@ -112,22 +112,22 @@
                     </div>
                 </div>
 
-                <div id="upldqstn" class="contentwrapper" style="display:none">
+                <div id="upldqstn" class="contentwrapper easins2" style="display:none">
                     <div class="imgcontent">
                         <img src="/images/upld_qstn.svg">
                     </div>
-                    <div  class="intro2cont" >
+                    <div class="intro2cont">
                         <h3>Upload Questions</h3>
                         <p>Upload questions. Earn karma as they can be used by others for practicing</p>
                         <p>Parameters like grade, marks , time can be added.They act as search filter</p>
                     </div>
                 </div>
 
-                <div  id="tagqstn"  class="contentwrapper" style="display:none">
+                <div id="tagqstn" class="contentwrapper easins2" style="display:none">
                     <div class="imgcontent">
                         <img src="/images/doctag.svg">
                     </div>
-                    <div class="intro2cont" >
+                    <div class="intro2cont">
                         <h3>Tag Questions</h3>
                         <p>Multiple tags can be associated with a question for better organizing and tag based searching
                         </p>
@@ -139,155 +139,160 @@
 
 
             <div class="tabbutton space-around">
-                <a  id="prepbtn" class="btnformat" onclick="openCont('prepprint','prepbtn')">Prepare</a>
-                <a  id="downbtn" class="btnformat" onclick="openCont('downpdf','downbtn')">Dowload</a>
-                <a  id="delbtn"  class="btnformat" onclick="openCont('delqstn','delbtn')">Organize</a>
-                <a  id="upldbtn" class="btnformat" onclick="openCont('upldqstn','upldbtn')">Upload</a>
-                <a  id="tagbtn"  class="btnformat" onclick="openCont('tagqstn','tagbtn')">Tag</a>
+                <a id="prepbtn" class="btnformat" onclick="openCont('prepprint','prepbtn')">Prepare</a>
+                <a id="downbtn" class="btnformat" onclick="openCont('downpdf','downbtn')">Dowload</a>
+                <a id="delbtn" class="btnformat" onclick="openCont('delqstn','delbtn')">Organize</a>
+                <a id="upldbtn" class="btnformat" onclick="openCont('upldqstn','upldbtn')">Upload</a>
+                <a id="tagbtn" class="btnformat" onclick="openCont('tagqstn','tagbtn')">Tag</a>
             </div>
 
         </section>
         <!--end of 3rd section -->
 
         <!-- Start of 4th section -->
-<section class="intro3">
- <h2>Application Features</h2>
+        <section class="intro3">
+            <h2>Application Features</h2>
 
- <div class="features">
-    <div class="imgcontent">
-        <img src="/images/feature1.jpg">
-    </div>
-    <div class="intro2cont" >
-        <h3>Search Questions</h3>
-        <p>Questions can be searched based on multiple attributes like Subject, Language , Grades, Marks, Tags</p>
-        <p>One or combination of multiple search attributes help in selecting questions for right term</p>
-    </div>
- </div>
+            <div class="features feature1">
+                <div class="imgcontent">
+                    <img src="/images/feature1.jpg">
+                </div>
+                <div class="intro2cont">
+                    <h3>Search Questions</h3>
+                    <p>Questions can be searched based on multiple attributes like Subject, Language , Grades, Marks,
+                        Tags</p>
+                    <p>One or combination of multiple search attributes help in selecting questions for right term</p>
+                </div>
+            </div>
 
- <div class="features">
-    <div class="intro2cont" >
-        <h3>Download Questions</h3>
-        <p>You can organize questions by reviewing their ratings, rate them, delete them</p>
-        <p>Questions can be downloaded in pdf format for easy distribution and printing</p>
-    </div>
-    <div class="imgcontent">
-        <img src="/images/feature2.jpg">
-    </div>
- </div>
+            <div class="features feature2">
+                <div class="intro2cont">
+                    <h3>Download Questions</h3>
+                    <p>You can organize questions by reviewing their ratings, rate them, delete them</p>
+                    <p>Questions can be downloaded in pdf format for easy distribution and printing</p>
+                </div>
+                <div class="imgcontent">
+                    <img src="/images/feature2.jpg">
+                </div>
+            </div>
 
- <div class="features">
-    <div class="imgcontent">
-        <img src="/images/feature3.jpg">
-    </div>
-    <div class="intro2cont" >
-        <h3>Submit Questions</h3>
-        <p>This app can will be helpful when we all contribute towards repository</p>
-        <p>Advantage of adding a question is you can organize questions per your need using searchable tags. Other students can benifit from contributions</p>
-        <p>Your students can search questions based on the tag you share</p>
-    </div>
- </div>
+            <div class="features feature3">
+                <div class="imgcontent">
+                    <img src="/images/feature3.jpg">
+                </div>
+                <div class="intro2cont">
+                    <h3>Submit Questions</h3>
+                    <p>This app can will be helpful when we all contribute towards repository</p>
+                    <p>Advantage of adding a question is you can organize questions per your need using searchable tags.
+                        Other students can benifit from contributions</p>
+                    <p>Your students can search questions based on the tag you share</p>
+                </div>
+            </div>
 
- <div class="features">
-    <div class="intro2cont" >
-        <h3>Profanity Filter</h3>
-        <p>Since anyone can submit question, profanity filter is built in</p>
-        <p>Features slated for future release includes Flag a question, </p>
-        <p>Show additional tag filters on search result</p>
-    </div>
-    <div class="imgcontent">
-        <img src="/images/feature4.jpg">
-    </div>
- </div>
- 
- <div class="features">
-    <div class="imgcontent">
-        <img src="/images/feature5.jpg">
-    </div>
-    <div class="intro2cont" >
-        <h3>User Profile</h3>
-        <p>Though search works without having to sign in, Sign In is requirred for question submission </p>
-        <p>View or delete your submitted questions</p>
-    </div>
- </div>
+            <div class="features feature4">
+                <div class="intro2cont">
+                    <h3>Profanity Filter</h3>
+                    <p>Since anyone can submit question, profanity filter is built in</p>
+                    <p>Features slated for future release includes Flag a question, </p>
+                    <p>Show additional tag filters on search result</p>
+                </div>
+                <div class="imgcontent">
+                    <img src="/images/feature4.jpg">
+                </div>
+            </div>
 
-</section>
+            <div class="features feature5">
+                <div class="imgcontent">
+                    <img src="/images/feature5.jpg">
+                </div>
+                <div class="intro2cont">
+                    <h3>User Profile</h3>
+                    <p>Though search works without having to sign in, Sign In is requirred for question submission </p>
+                    <p>View or delete your submitted questions</p>
+                </div>
+            </div>
+
+        </section>
         <!-- end of 4th section  -->
 
-<!-- start of 5th section get started -->
+        <!-- start of 5th section get started -->
 
-<section class="intro5">
-    <div class="intro5wrapper">
-    <h2>Get started, prepare your practice questions</h2>
-    <div class="hero-install">
-        <a class="button-light" href="https://praksheet.ioblitz.com">Get Started <span
-                class="material-symbols-outlined">
-                arrow_forward_ios
-            </span></a>
-    </div>
-</div>
-</section>
+        <section class="intro5">
+            <div class="intro5wrapper">
+                <h2>Get started, prepare your practice questions</h2>
+                <div class="hero-install">
+                    <a class="button-light" href="https://praksheet.ioblitz.com">Get Started <span
+                            class="material-symbols-outlined">
+                            arrow_forward_ios
+                        </span></a>
+                </div>
+            </div>
+        </section>
 
-<!-- start of 6th section support us -->
+        <!-- start of 6th section support us -->
 
-<section class="suprt">
-    <div class="suprtwrapper">
-    <h2>Support Us , ways to contribute</h2>
+        <section class="suprt">
+            <div class="suprtwrapper">
+                <h2>Support Us , ways to contribute</h2>
 
-     <div class="contwrapper">
-        <div class="imgholder">
-            <img src="/images/pen-fancy-solid.svg">
-        </div>
-        <p>Valuable contribution, pen brilliant questions for enthusiastic students</p>
-     </div>
+                <div class="imgbox1">
+                <div class="contwrapper">
+                    <div class="imgholder">
+                        <img src="/images/pen-fancy-solid.svg">
+                    </div>
+                    <p>Valuable contribution, pen brilliant questions for enthusiastic students</p>
+                </div>
 
-     <div class="contwrapper">
-        <div class="imgholder">
-            <img src="/images/info-solid.svg">
-        </div>
-        <p> Improve the about section of Practice Sheet app, this acts as helping guide for others </p>
-     </div>
-<p></p>
-     <div class="contwrapper">
-        <div class="imgholder">
-            <img src="/images/microchip-solid.svg">
-        </div>
-        <p>Improve app, contact us at  twitter 
-             <a href="https://twitter.com/praksheet101">@praksheet101</a> for contributions or ideas</p>
-     </div>
+                <div class="contwrapper">
+                    <div class="imgholder">
+                        <img src="/images/info-solid.svg">
+                    </div>
+                    <p> Improve the about section of Practice Sheet app, this acts as helping guide for others </p>
+                </div>
+            </div>
+                <p></p>
+                <div class="imgbox2">
+                <div class="contwrapper">
+                    <div class="imgholder">
+                        <img src="/images/microchip-solid.svg">
+                    </div>
+                    <p>Improve app, contact us at twitter
+                        <a href="https://twitter.com/praksheet101">@praksheet101</a> for contributions or ideas
+                    </p>
+                </div>
 
-     <div class="contwrapper">
-        <div class="imgholder">
-            <img src="/images/coins-solid.svg">
-        </div>
-        <p>Monitory contributions helps us to pay tech costs and staff. 
-            Support us <a href="https://www.buymeacoffee.com/praksheet">here</a></p>
-     </div>
-
-</div>
-</section>
-<!-- end of support  section  -->
-
-
-<!-- start of footer section -->
-<section class="footer">
-    <div class="social-wrapper">
-         
-        <p>
-            <a href="https://twitter.com/praksheet101"><i class="twittlogo"></i>@praksheet101</a>
-        </p>
-        <p>
-            <a href="https://www.youtube.com/channel/UC2gwbpXHS24rUoRMzhn5bKQ"><i
-                    class="utublogo"></i>@praksheet101</a>
-        </p>
-        <p>
-            <a href="https://github.com/blackarck/praksheetcom"><i
-                    class="githublogo"></i>website</a>
-        </p>
-    </div>
-</section>
+                <div class="contwrapper">
+                    <div class="imgholder">
+                        <img src="/images/coins-solid.svg">
+                    </div>
+                    <p>Monitory contributions helps us to pay tech costs and staff.
+                        Support us <a href="https://www.buymeacoffee.com/praksheet">here</a></p>
+                </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of support  section  -->
 
 
-<!-- end of footer section -->
+        <!-- start of footer section -->
+        <section class="footer">
+            <div class="social-wrapper">
+
+                <p>
+                    <a href="https://twitter.com/praksheet101"><i class="twittlogo"></i>@praksheet101</a>
+                </p>
+                <p>
+                    <a href="https://www.youtube.com/channel/UC2gwbpXHS24rUoRMzhn5bKQ"><i
+                            class="utublogo"></i>@praksheet101</a>
+                </p>
+                <p>
+                    <a href="https://github.com/blackarck/praksheetcom"><i class="githublogo"></i>website</a>
+                </p>
+            </div>
+        </section>
+
+
+        <!-- end of footer section -->
 
 
     </div>

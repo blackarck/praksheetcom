@@ -216,7 +216,7 @@ nav ul li a:hover {
    background: #fff;
    text-align: center;
    padding-top: 3rem;
-
+   animation: animzoomin 1s  .5s  1;
 }
 
 .intro .intro-content {
@@ -224,6 +224,7 @@ nav ul li a:hover {
    vertical-align: middle;
    padding-right: 3rem;
    text-align: left;
+  
 }
 
 .intro .intro-content1 img {
@@ -273,7 +274,7 @@ nav ul li a:hover {
 
 .intro2 .tabcontent .contentwrapper .imgcontent img {
    width: 30%;
-   animation: animupdown 2s infinite alternate;
+   animation: animupdown 2s  infinite alternate;
 }
 
 .intro2 .tabcontent .contentwrapper .imgcontent {
@@ -512,11 +513,55 @@ nav ul li a:hover {
    margin-right: .8rem;
 }
 
+
+/******************************/
+/******Animations*Addons*********/
  
+.easins1{
+   animation: animeasin 2s 1;
+}
+
+.easout1{
+   animation: animeasout 2s 1;
+}
+
+.easins2{
+   animation: animeasin 1s 1;
+}
+
+.easout2{
+   animation: animeasout 1s 1;
+}
+
+
+
+.zoomin{
+   animation: animzoomin 2s     1;
+}
+
+.opacanim{
+   animation: animopac 3s 1;
+}
 /******************************/
 /******Animations**************/
 @keyframes animupdown {
    0% {
       transform: translateY(10px);
    }
+}
+
+@keyframes animzoomin {
+   0%{ transform: scale(.9);}
+}
+
+@keyframes animeasin {
+   0%{ transform: translateX(20px)}
+}
+
+@keyframes animeasout {
+   0%{ transform: translateX(-20px)}
+}
+
+@keyframes animopac {
+   0%{ opacity : 0}
 }
