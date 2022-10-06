@@ -403,6 +403,11 @@ nav ul li a:hover {
    font-size: 1.4rem;
 }
 
+.intro5 .intro5wrapper h4 {
+   font-weight: 400;
+   font-size: 1.1rem;
+}
+
 .intro5 .hero-install {
    padding: 4rem 0 3rem;
 }
