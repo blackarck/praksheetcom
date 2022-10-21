@@ -1,0 +1,558 @@
+body {
+   overflow-x: hidden;
+   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+nav {
+   flex: 1;
+   text-align: right;
+}
+
+nav ul li {
+   list-style: none;
+   display: inline-block;
+   margin-right: 30px;
+}
+
+nav ul li a {
+   text-decoration: none;
+   color: aliceblue;
+   font-size: small;
+}
+
+nav ul li a:hover {
+   color: rgb(255, 162, 0);
+}
+
+.logo {
+   max-width: 30px;
+   max-height: 30px;
+   cursor: pointer;
+   margin: 30px 20px;
+   color: #fbfbf9;
+}
+
+.navbar-brand {
+   color: #fbfbf9;
+}
+
+.container {
+   width: 100%;
+   min-height: 100vh;
+   box-sizing: border-box;
+   overflow: hidden;
+}
+
+.navbar {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   background-color: rgb(29, 28, 40);
+}
+
+.row {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 100px 0;
+}
+
+.col-1 {
+   flex-basis: 40%;
+   position: relative;
+   margin-left: 50px;
+}
+
+.col-1 h2 {
+   font-size: medium
+}
+
+
+.hero {
+   position: relative;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 3.5rem 0 3.5rem;
+}
+
+.herowrap {
+   position: relative;
+   background-color: rgb(29, 28, 40);
+}
+
+.herowrap::before {
+   content: ' ';
+   display: block;
+   position: absolute;
+   background-image: url(/images/backg.png);
+   background-repeat: no-repeat;
+   background-position: right;
+   background-size: cover;
+   width: 100%;
+   height: 100%;
+   opacity: .7;
+   background-size: 90%;
+}
+
+.hero h1 {
+   font-size: 2.6rem;
+   color: #fbfbf9;
+   line-height: 5.5rem;
+   font-weight: 600;
+   margin: 0 auto;
+}
+
+.hero h1 span {
+   font-weight: 100;
+   display: block;
+   line-height: .2rem;
+   margin-bottom: 10px;
+   font-size: 25px;
+}
+
+.hero .hero-install {
+   padding: 4rem 0 3rem;
+}
+
+.hero .hero-install a span {
+   vertical-align: middle;
+}
+
+.button-light {
+   background-color: #ff7f2aff;
+   border: 1px solid #ff7f2aff;
+   border-top: 1px solid rgb(230, 106, 24);
+   font-size: 1.2rem;
+   color: #fff;
+   font-weight: 600;
+   padding: .5rem 3rem .5rem;
+   text-decoration: none;
+}
+
+
+.material-symbols-outlined {
+   font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 48
+}
+
+.hero-notes {
+   background: rgb(29, 28, 40);
+   padding-bottom: 1rem;
+   padding-top: 1rem;
+}
+
+.hero-notes .social-wrapper {
+   margin: 0 auto;
+   max-width: 90%;
+   text-align: center;
+   color: aliceblue;
+   display: block;
+}
+
+
+.hero-notes p {
+   display: inline-block;
+   color: #c6dedc;
+   font-weight: 500;
+   text-align: center;
+   margin-bottom: 0;
+   padding-top: 0.4rem;
+   margin-right: 2.5rem;
+   font-family: freight-sans-pro-n5, freight-sans-pro, FreightSansMedium;
+}
+
+.hero-notes p a {
+   color: #c6dedc;
+   text-decoration: none;
+}
+
+.hero-notes p i {
+   margin-right: .8rem;
+}
+
+.twittlogo {
+   background-image: url(/images/icon-twitter-landing.png);
+}
+
+.utublogo {
+   background-image: url(/images/utubelogo.png);
+}
+
+.githublogo {
+   background-image: url(/images/githublogo.svg);
+}
+
+.twittlogo,
+.utublogo , .githublogo{
+   background-position: center center;
+   background-repeat: no-repeat;
+   display: inline-block;
+   height: 20px;
+   width: 20px;
+   background-size: 20px 20px;
+   position: relative;
+   text-indent: -9999px;
+   vertical-align: top;
+   opacity: .55;
+}
+
+.intro {
+   background: #fff;
+   text-align: center;
+   padding-top: 3rem;
+   animation: animzoomin 1s  .5s  1;
+}
+
+.intro .intro-content {
+   margin-bottom: 10rem;
+   vertical-align: middle;
+   padding-right: 3rem;
+   text-align: left;
+  
+}
+
+.intro .intro-content1 img {
+   width: 90%;
+   height: auto;
+   background-repeat: no-repeat;
+}
+
+.intro .intro-content h1 {
+
+   line-height: 30px;
+   font-weight: 500;
+   font-size: 1.4rem;
+   margin-bottom: 2.5rem;
+}
+
+.site-container {
+   max-width: 70rem;
+   margin: auto;
+   position: relative;
+   display: inline-block;
+   width: 40%; 
+}
+
+/****** Intro 2 stuff ********/
+.intro2 {
+   background: rgb(241, 238, 245);
+   text-align: center;
+   padding-top: 3rem;
+   padding-bottom: 2rem;
+}
+
+.intro2 h2 {
+   font-weight: 300;
+   font-size: 1.4rem;
+}
+
+
+.intro2 .tabcontent .contentwrapper {
+   text-align: center;
+   padding-bottom: 3rem;
+   padding-top: 3rem;
+   height: 220px;
+}
+
+.intro2 .tabcontent .contentwrapper .imgcontent img {
+   width: 30%;
+   animation: animupdown 2s  infinite alternate;
+}
+
+.intro2 .tabcontent .contentwrapper .imgcontent {
+   background-image: url(/images/ambg1.png);
+   background-position: center;
+   background-size: 40%;
+   background-repeat: no-repeat;
+   text-align: center;
+   display: inline-block;
+   margin: auto;
+   height: 220px;
+   width: 30%;
+}
+
+.intro2 .tabcontent .intro2cont {
+   height: 220px;
+   display: inline-block;
+   text-align: left;
+   vertical-align: top;
+   max-width: 20%;
+}
+
+.intro2 .tabcontent .intro2cont P {
+   font-weight: 100;
+   margin-bottom: 10px;
+   font-size: 14px;
+}
+
+/****** intro 2 buttons **********/
+.tabbutton {
+   padding-top: 20px;
+   display: flex;
+   width: 50%;
+   text-align: center;
+   margin: auto;
+}
+
+.space-around {
+   justify-content: space-around;
+}
+
+.tabbutton a {
+   font-weight: 300;
+   font-size: 14px;
+   color: rgb(29, 28, 40);
+
+}
+
+.tabbutton a:hover {
+   color: rgb(230, 106, 24);
+}
+
+
+
+/******************************/
+/****** Intro 3 **************/
+
+.intro3 {
+   text-align: center;
+   padding-top: 3rem;
+   padding-bottom: 2rem;
+   color: #2a2938ff;
+}
+
+.intro3 h2 {
+   font-weight: 500;
+   font-size: 1.4rem;
+}
+
+.intro3 .features {
+   display: inline-block;
+   text-align: center;
+   padding-top: 3rem;
+}
+
+.intro3 .features .imgcontent {
+   display: inline-block;
+   text-align: center;
+   margin: auto;
+   height: 220px;
+   width: 40%;
+   margin-right: 2rem;
+}
+
+.intro3 .features img {
+   width: 80%;
+}
+
+.intro3 .intro2cont {
+   height: 220px;
+   display: inline-block;
+   text-align: left;
+   vertical-align: top;
+   max-width: 20%;
+   margin-left: 2rem;
+}
+
+.intro3 .intro2cont h3 {
+   font-weight: 200;
+   color: rgb(255, 162, 0);
+}
+
+.intro3 .intro2cont p {
+   font-weight: 100;
+   font-size: 14px;
+}
+
+
+/******************************/
+/****** Intro 5**************/
+
+.intro5 {
+   text-align: center;
+   padding-top: 3rem;
+   padding-bottom: 2rem;
+   height: 250px;
+   color: #2a2938ff;
+   position: relative;
+   background-image: url("/images/bgpattern.svg");
+   background-repeat: repeat;
+   background-color: #f3f4ffff;
+}
+
+.intro5 .intro5wrapper h2 {
+   font-weight: 500;
+   font-size: 1.4rem;
+}
+
+.intro5 .intro5wrapper h4 {
+   font-weight: 400;
+   font-size: 1.1rem;
+}
+
+.intro5 .hero-install {
+   padding: 4rem 0 3rem;
+}
+
+.intro5 .hero-install a span {
+   vertical-align: middle;
+}
+
+/******************************/
+/****** suprt**************/
+
+.suprt {
+   text-align: center;
+   padding-top: 3rem;
+   padding-bottom: 2rem;
+   height: auto;
+   color: #2a2938ff;
+}
+
+.suprt .suprtwrapper {
+   text-align: center;
+   width: 70%;
+   margin: auto;
+}
+
+.suprt .suprtwrapper h2 {
+   font-weight: 500;
+   font-size: 1.4rem;
+}
+
+
+.suprt .suprtwrapper p {
+   font-size: 14px;
+
+}
+
+
+.suprt .suprtwrapper .contwrapper {
+   width: 200px;
+   height: 200px;
+   background-color: rgb(241, 238, 245);
+   display: inline-block;
+   margin: 1rem 3rem 1rem 2rem;
+}
+
+.suprt .suprtwrapper .contwrapper .imgholder {
+   padding-top: 10px;
+   width: 100px;
+   display: inline-block;
+}
+
+.suprt .suprtwrapper .contwrapper a {
+   text-decoration: none;
+   color: #2a2938ff;
+}
+
+.suprt .suprtwrapper .contwrapper p {
+   text-decoration: none;
+   color: #2a2938ff;
+   margin: 0 10px 0 10px;
+}
+
+.suprt .suprtwrapper .contwrapper .imgholder img {
+   height: 100px;
+   width: 100px;
+
+}
+
+
+/******************************/
+/******Footer**************/
+.footer {
+   text-align: center;
+   padding-top: 3rem;
+   padding-bottom: 2rem;
+   height: auto;
+   background-color: #2a2938ff;
+   color: aliceblue;
+}
+
+.footer .social-wrapper {
+   margin: 0 auto;
+   text-decoration: none;
+   max-width: 90%;
+   text-align: center;
+   color: aliceblue;
+   display: block;
+}
+
+
+.footer p {
+   display: inline-block;
+   color: #c6dedc;
+   font-weight: 500;
+   text-align: center;
+   margin-bottom: 0;
+   padding-top: 0.4rem;
+   margin-right: 2.5rem;
+   font-family: freight-sans-pro-n5, freight-sans-pro, FreightSansMedium;
+}
+
+.footer p a {
+   color: #c6dedc;
+   text-decoration: none;
+}
+
+.footer p i {
+   margin-right: .8rem;
+}
+
+
+/******************************/
+/******Animations*Addons*********/
+ 
+.easins1{
+   animation: animeasin 2s 1;
+}
+
+.easout1{
+   animation: animeasout 2s 1;
+}
+
+.easins2{
+   animation: animeasin 1s 1;
+}
+
+.easout2{
+   animation: animeasout 1s 1;
+}
+
+
+
+.zoomin{
+   animation: animzoomin 2s     1;
+}
+
+.opacanim{
+   animation: animopac 3s 1;
+}
+/******************************/
+/******Animations**************/
+@keyframes animupdown {
+   0% {
+      transform: translateY(10px);
+   }
+}
+
+@keyframes animzoomin {
+   0%{ transform: scale(.9);}
+}
+
+@keyframes animeasin {
+   0%{ transform: translateX(20px)}
+}
+
+@keyframes animeasout {
+   0%{ transform: translateX(-20px)}
+}
+
+@keyframes animopac {
+   0%{ opacity : 0}
+}
