@@ -208,11 +208,9 @@ nav ul li a:hover {
 }
 
 .intro .intro-content {
-   margin-bottom: 10rem;
-   vertical-align: middle;
-   padding-right: 3rem;
+   margin-bottom: 5rem;
+   vertical-align: middle; 
    text-align: left;
-  
 }
 
 .intro .intro-content1 img {
@@ -222,7 +220,6 @@ nav ul li a:hover {
 }
 
 .intro .intro-content h1 {
-
    line-height: 30px;
    font-weight: 500;
    font-size: 1.4rem;

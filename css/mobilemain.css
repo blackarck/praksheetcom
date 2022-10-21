@@ -24,6 +24,18 @@
 }
 
 
+.site-container { 
+  width: 80%; 
+}
+
+.intro .intro-content {
+  margin-bottom: 2rem;   
+}
+.intro .intro-content1 img {
+ margin-bottom: 2rem;
+}
+
+
 .intro2 h2 {
   font-weight: 200;
   font-size: 1.2rem;
